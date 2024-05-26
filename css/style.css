@@ -51,7 +51,7 @@ body{
 
 .home{
     height: 100vh;
-   background-image: url('arte_site/foto_portfolio.jpg') no-repeat;
+   background-image: url('../arte_site/foto_portfolio.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;

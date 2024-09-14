@@ -13,7 +13,7 @@ body{
     color: #ededed;
 }
 
-.header{
+.headerU{
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +46,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #3f1a12;
+    color: #050505;
 }
 
 .home{

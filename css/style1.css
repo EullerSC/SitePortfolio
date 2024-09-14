@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Concert One", sans-serif;
+}
+
+.body{
+    
+    color: #ededed;
+}
+
+.header1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+
+.logo1{
+    font-size: 25px;
+    color: #ededed; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: auto;
+
+}
+
+.navbar1 a{
+    display: inline-block;
+    font-size: 18px;
+    color: #ededed; 
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s; 
+
+    
+}
+
+.navbar1 a:hover,
+.navbar1 a.active{
+    color: #000000;
+}
+
+.portfolio1{
+    height: 100vh;
+    padding: 130px 10%;
+    background-color: #ff6600e1;
+    
+}
+
+
+.projects-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.6fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;  
+}

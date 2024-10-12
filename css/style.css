@@ -377,11 +377,11 @@ opacity: .8;
     }
     section.home .home-content p{
         width: 100%;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     section.home .home-contacts{
-        bottom: 40px;
+        bottom: 60px;
     }
 
  

@@ -57,7 +57,7 @@
 .portfolio1{
     height: 100vh;
     padding: 130px 10%;
-    background-color: #ff6600e1;
+    background-color: #ff2600d8 ;
     
 }
 
@@ -83,4 +83,65 @@
     max-width: 100%;
     height: auto;
     border-radius: 5px;  
+}
+
+.project img:hover{
+    
+    transform: scale(1.50);
+}
+
+
+.btn-box1 a{
+    margin-top: 60px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #ededed;
+    border: 8px solid #ededed;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+
+
+.btn-box1 a:hover{
+    color: #ededed;
+}
+
+.btn-box1 a:nth-child(2){
+    
+    color: #030303;
+}
+
+.btn-box1 a:nth-child(2):hover{
+    color: #000000;
+}
+
+.btn-box1 a:nth-child(2):before{
+    color: #ededed;
+}
+
+.btn-box1 a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box1 a:hover::before{
+    width: 100%;
 }

@@ -146,7 +146,62 @@
     width: 100%;
 }
 
+@media only screen and (max-width:1080px) {
+    
+    section.home .home-imghover{
+        display: none;
+    }
 
+    section.home{
+        background: none;
+    }
+
+    body{
+        width: 100%;
+        background: rgb(255, 60, 0);
+     }
+
+    
+
+    header.header .navbar{ 
+        display: block;
+        z-index: 2;
+        
+    }  
+    
+    header.header .logo{
+        display: none;
+    }
+
+
+
+    section.home .home-content{
+        margin-top: 10px;
+      
+    }
+
+    section.home .home-content h1{
+        font-size: 35px;
+    }
+
+    section.home .home-content h3{
+        font-size: 30px;
+    }
+    section.home .home-content p{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    section.home .home-contacts{
+        bottom: 30px;
+    }
+
+ 
+
+
+  
+    
+}
 
 @media only screen and (max-width:600px) {
     

@@ -183,15 +183,15 @@
     }
 
     section.home .home-content h1{
-        font-size: 25px;
+        font-size: 35px;
     }
 
     section.home .home-content h3{
-        font-size: 20px;
+        font-size: 30px;
     }
     section.home .home-content p{
         width: 100%;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     section.home .home-contacts{
